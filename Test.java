@@ -1,6 +1,9 @@
 
 public class Test {
 
+  /**
+  * implement a add method
+  */
   public void add(List<String> list, String newElement) {
       list.add(newElement);
   }
