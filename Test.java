@@ -1,6 +1,9 @@
 
 public class Test {
 
+  public void remove(List<String> list, int index) {
+      list.remove(index);
+  }
   /**
   * implement a add method
   */
