@@ -1,8 +1,16 @@
 
 public class Test {
 
+  public void remove(List<String> list, int index) {
+      list.remove(index);
+  }
+  /**
+  * implement a add method
+  */
   public void add(List<String> list, String newElement) {
-      list.add(newElement);
+      if (list !=null) {
+        list.add(newElement);
+      }
   }
 
 
